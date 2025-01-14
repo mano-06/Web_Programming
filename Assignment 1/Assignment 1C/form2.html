@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML5 Elements</title>
+</head>
+<body>
+    <h1>Elements</h1>
+
+    <fieldset>
+        <legend>Elements</legend>
+
+        <label for="textbox">Name:</label><br>
+        <input type="text" id="textbox" name="textbox" placeholder="Enter your text here..." required><br><br>
+
+        <label for="optionBox">Gender:</label><br>
+        <select id="optionBox" name="optionBox">
+            <option value="opt1">Male</option>
+            <option value="opt2">Female</option>
+        </select><br><br>
+
+        <label for="selectBox">Current Year of Studying:</label><br>
+        <select id="selectBox" name="selectBox" size="3">
+            <option value="opt1">1st Year</option>
+            <option value="opt2">2nd Year</option>
+            <option value="opt3">3rd Year</option>
+            <option value="opt4">4th Year</option>
+        </select><br><br>
+
+        <label>Skills that you excel at:</label><br>
+        <input type="checkbox" id="check1"  value="Check1">
+        <label for="check1">HTML</label><br>
+        <input type="checkbox" id="check2"  value="Check2">
+        <label for="check2">CSS</label><br>
+        <input type="checkbox" id="check3"  value="Check3">
+        <label for="check2">JS</label><br>
+        <input type="checkbox" id="check4"  value="Check4">
+        <label for="check2">React</label><br><br>
+
+
+        <label for="textarea">About Yourself:</label><br>
+        <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Enter your message here..."></textarea><br><br>
+
+        <label>Prefered Working time:</label><br>
+        <input type="radio" id="opt1" value="opt1">
+        <label for="opt1">9:00 - 12:00</label><br>
+        <input type="radio" id="opt2" value="opt2">
+        <label for="opt2">14:00 - 17:00</label><br><br>
+
+        <label for="dlist">Preferred teaching mode:</label><br>
+        <input type="text" id="dlist" name="dlist" list="options" placeholder="Online/Offline">
+        <datalist id="options">
+            <option value="Online">
+            <option value="Offline">
+        </datalist><br><br>
+    </fieldset>
+</body>
+</html>
