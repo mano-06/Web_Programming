@@ -1,12 +1,14 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>South Indian Food</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <center><h1>Welcome...</h1></center>
+        <header class="banner">
+            <h1>Welcome to South Indian Food Delights</h1>
         </header>
-        <section>
+        <section class="home-section">
             <h2>Home</h2>
             <p>On this website, you can explore the variety of popular dishes and recipes of South India.</p>
         </section>
@@ -14,22 +16,27 @@
             <h2>Navigation Page</h2>
             <ol>
                 <nav>
-                <li><a href="E:\vit\Web Programming\Assignment 1\Assignment 1A\home.html">Activity 1</a></li>
-                <li><a href="E:\vit\Web Programming\Assignment 1\Assignment 1A\list.html">Activity 2</a></li>
-                <li><a href="E:\vit\Web Programming\Assignment 1\Assignment 1A\list.html">Activity 3</a></li>
-                <li><a href="E:\vit\Web Programming\Assignment 1\Assignment 1C\form2.html">Activity 6</a></li>
-                <li><a href="E:\vit\Web Programming\Assignment 1\Assignment 1C\activity7.html">Activity 7</a></li>
+                    <li><a class="nav_a" href="Assignment 1\Assignment 1A\home.html">Activity 1</a></li>
+                    <li><a class="nav_a" href="Assignment 1\Assignment 1A\list.html">Activity 2</a></li>
+                    <li><a class="nav_a" href="Assignment 1\Assignment 1A\table.html">Activity 3</a></li>
+                    <li><a class="nav_a" href="Assignment 1\Assignment 1B\Activity4.pdf">Activity 4</a></li>
+                    <li><a class="nav_a" href="Github web hosting.mp4">Activity 5</a></li>
+                    <li><a class="nav_a" href="Assignment 1\Assignment 1C\form2.html">Activity 6</a></li>
+                    <li><a class="nav_a" href="Assignment 1\Assignment 1C\activity7.html">Activity 7</a></li>
+                    <li><a class="nav_a" href="index.html">Activity 8</a></li>
                 </nav>
             </ol>
         </section>
-        <section>
+        <section class="blog-section">
             <h2>Blog</h2>
-            <div>
-                <p>The Latest in South Indian Cuisine</p>
-                <img src="E:\vit\Web Programming\biryani.jpg" alt="Delicious South Indian Food">
-                <p>Visit for detailed recipes: <a href="">Learn More</a></p>
+            <div class="blog-content">
+                <div>
+                    <p>The Latest in South Indian Cuisine</p>
+                    <img src="biryani.jpg" alt="Delicious South Indian Food">
+                    <p>Visit for detailed recipes: <a href="#">Learn More</a></p>
+                </div>
                 <video controls width="600">
-                    <source src="./Github web hosting.mp4" type="video/mp4">
+                    <source src="Github web hosting.mp4" type="video/mp4">
                 </video>
             </div>
         </section>
@@ -44,6 +51,7 @@
                 <input type="number" id="number" name="number" placeholder="Enter your Number"><br>
                 <label for="food">Favorite Dish:</label>
                 <input type="text" id="food" name="food" placeholder="Enter your favorite dish"><br>
+                <button type="submit">Submit</button>
             </form>
         </footer>
     </body>

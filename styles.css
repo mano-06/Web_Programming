@@ -1,0 +1,100 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+}
+
+.banner {
+    background: url('banner-image.jpg') no-repeat center center/cover;
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding: 40px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Home Section */
+.home-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: justify;
+}
+
+/* Navigation Section */
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+
+}
+li {
+    float: left;
+}
+.nav_a {
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.nav_a:hover {
+    background-color: #edefee;
+}
+
+/* Blog Section */
+.blog-section {
+    padding: 20px;
+    background-color: #fffbe7;
+}
+.blog-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-content div{
+    align-items: left;
+}
+.blog-section img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* Footer Section */
+footer{
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-top: 2px solid #ddd;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: green;
+}
